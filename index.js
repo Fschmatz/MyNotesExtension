@@ -20,7 +20,7 @@ function render(notes) {
             <a>
                 ${notes[i]}
             </a>
-           <button id="deleteItem-btn${[i]}" class="box" ><i class="fa fa-close fa-lg"></i></button>        
+           <button id="deleteItem-btn${[i]}" class="box" ><i class="fa fa-times"></i></button>        
         </div>
         </li>
         `
